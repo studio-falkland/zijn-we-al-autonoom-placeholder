@@ -14,8 +14,9 @@ main {
     width: 100dvw;
     height: 100dvh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow-x: auto;
+    justify-content: space-around;
+    align-items: flex-start;
     background-color: #F1F1F8;
     padding: 12px;
 }
@@ -27,6 +28,7 @@ main {
     border-radius: 12px;
     border: 1.5px solid #0000A1;
     box-shadow: 4px 4px 0px #0000A1;
+    margin: auto 0;
 }
 
 .logo {
@@ -81,6 +83,14 @@ hr {
 }
 
 @media(max-width: 400px) {
+    main {
+        padding: 8px;
+    }
+
+    .card {
+        padding: 24px;
+    }
+    
     .logos {
         display: flex;
         flex-direction: column;
