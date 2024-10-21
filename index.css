@@ -113,3 +113,16 @@ hr {
         order: 6;
     }
 }
+
+.answer {
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    font-size: 3em;
+    color: #00f;
+}
+
+.explainer {
+    color: #00000066;
+    font-size: 10px;
+    margin-bottom: 24px;
+}
